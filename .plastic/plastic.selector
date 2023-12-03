@@ -1,0 +1,4 @@
+repository "A rota 2@john_perdix@cloud"
+  path "/"
+    br "/main"
+    co "/main"
