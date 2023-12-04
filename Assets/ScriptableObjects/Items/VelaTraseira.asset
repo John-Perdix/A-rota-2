@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd6de95a28285143bb85c3fc118ab9d, type: 3}
+  m_Name: VelaTraseira
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2069234257324978526, guid: c93f7b62310cd5c48b312f2f5013a993, type: 3}
+  type: 2
+  description: A vela traseira do barco.
