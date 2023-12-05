@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd6de95a28285143bb85c3fc118ab9d, type: 3}
   m_Name: VelaFrente
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3254024709467399512, guid: 427887af5d1ee5b4e95843be0cd15082, type: 3}
+  prefab: {fileID: 4261141348466249805, guid: f46b533da19649948ac24648c1a39b7b, type: 3}
   type: 2
   description: Vela da frente do barco.

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd6de95a28285143bb85c3fc118ab9d, type: 3}
   m_Name: VelaMeio
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6007192349885737557, guid: f9c0788caa9715e46937a93af343d744, type: 3}
+  prefab: {fileID: 7698188435738867353, guid: ce40dd0d3b9c05f429aa317227566f62, type: 3}
   type: 2
   description: Vela do meio do barco.

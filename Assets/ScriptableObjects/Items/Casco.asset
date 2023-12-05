@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd6de95a28285143bb85c3fc118ab9d, type: 3}
   m_Name: Casco
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2446390077287023333, guid: fd24d071681d8ea4e89b5139acf7674b, type: 3}
-  type: 0
+  prefab: {fileID: 9173221050753738823, guid: 4a7975ef48afd6241bfc9e9e75cccfab, type: 3}
+  type: 2
   description: Casco do barco.

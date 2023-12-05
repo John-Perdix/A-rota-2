@@ -9,7 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3dd3befa74ffc746b6a91ea7483cdf4, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: d3f3a101a72bd354a9552701e9c5af17, type: 3}
+  m_Name: Sword
   m_EditorClassIdentifier: 
-  Container: []
+  prefab: {fileID: 0}
+  type: 0
+  description: Used to slain your enemies.
+  atkBonus: 10
+  defenceBonus: 0
