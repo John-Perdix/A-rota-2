@@ -7,20 +7,14 @@ using UnityEngine.UI;
 public class Colisao : MonoBehaviour
 {
     public GameObject main;
-    public GameObject Vela2;
-    public GameObject Vela3;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject front;
+    public GameObject back;
 
-    // Update is called once per frame
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("main"))
         {
-            main.transform.position = new Vector2 (5,5); 
+            main.transform.position = new Vector2 (0,0); 
             Debug.Log("fsdfds");
         }
     }
