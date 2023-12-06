@@ -1026,9 +1026,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b69b64b17b887940a229bf7bd84c062, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventory: {fileID: 0}
-  X_START: 10
-  Y_START: 10
+  inventory: {fileID: 11400000, guid: 48637b88cc393a543920f3bc66d0ce8c, type: 2}
+  X_START: 0
+  Y_START: 0
   X_SPACE_BETWEEN_ITEMS: 0
   NUMBER_OF_COLUMN: 1
   Y_SPACE_BETWEEN_ITEMS: 200
