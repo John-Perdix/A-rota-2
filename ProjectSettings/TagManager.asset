@@ -44,3 +44,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: puzzleBlack
+    uniqueID: 213274079
+    locked: 0
+  - name: pieces
+    uniqueID: 157148799
+    locked: 0

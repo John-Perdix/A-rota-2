@@ -405,7 +405,6 @@ GameObject:
   - component: {fileID: 963751461}
   - component: {fileID: 963751464}
   - component: {fileID: 963751462}
-  - component: {fileID: 963751465}
   - component: {fileID: 963751466}
   - component: {fileID: 963751467}
   m_Layer: 0
@@ -527,21 +526,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &963751465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963751460}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 0, y: 0}
-  m_UseGraphicAlpha: 0
 --- !u!50 &963751466
 Rigidbody2D:
   serializedVersion: 4
@@ -1143,8 +1127,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   main: {fileID: 838023466}
-  Vela2: {fileID: 0}
-  Vela3: {fileID: 0}
+  front: {fileID: 0}
+  back: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
