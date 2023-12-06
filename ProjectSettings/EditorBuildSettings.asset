@@ -15,8 +15,14 @@ EditorBuildSettings:
     path: Assets/ExampleAssets/Scenes/SceneBarco.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/ExampleAssets/Scenes/ScenePuzzle.unity
-    guid: b94250ac49841a847aba426e1e9c8903
+    path: Assets/ExampleAssets/Scenes/ScenePuzzle2.unity
+    guid: e43c944cf9af31c4b9df848df340093f
+  - enabled: 1
+    path: Assets/Scenes/Fim.unity
+    guid: 10cc6e7191d673c48b22a015c47c011a
+  - enabled: 1
+    path: Assets/ExampleAssets/Scenes/VerNau.unity
+    guid: 1e3fdd0e5c678b941a5f96e5a745b902
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
