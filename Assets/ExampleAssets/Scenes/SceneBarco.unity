@@ -949,6 +949,7 @@ GameObject:
   - component: {fileID: 2070119946}
   - component: {fileID: 2070119948}
   - component: {fileID: 2070119947}
+  - component: {fileID: 2070119949}
   m_Layer: 5
   m_Name: InventoryScreen
   m_TagString: Untagged
@@ -1013,6 +1014,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2070119945}
   m_CullTransparentMesh: 1
+--- !u!114 &2070119949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070119945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b69b64b17b887940a229bf7bd84c062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 0}
+  X_START: 10
+  Y_START: 10
+  X_SPACE_BETWEEN_ITEMS: 0
+  NUMBER_OF_COLUMN: 1
+  Y_SPACE_BETWEEN_ITEMS: 200
 --- !u!4 &212175866532230322
 Transform:
   m_ObjectHideFlags: 0
