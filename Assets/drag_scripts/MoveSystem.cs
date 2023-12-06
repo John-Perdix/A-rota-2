@@ -10,6 +10,7 @@ public class MoveSystem : MonoBehaviour
 
     private float startPosX;
     private float startPosY;
+    private bool finish;
 
     private Vector3 resetPosition;
     // Start is called before the first frame update
@@ -21,25 +22,30 @@ public class MoveSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (moving)
+        if (finish == false)
         {
-            Vector3 mousePos;
-            mousePos = Input.mousePosition;
-            mousePos = Camera.main.ScreenToWorldPoint(mousePos);
+            if (moving)
+            {
+                Vector3 mousePos;
+                mousePos = Input.mousePosition;
+                mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
-            this.gameObject.transform.localPosition = new Vector3(mousePos.x-startPosX, mousePos.y-startPosY, this.gameObject.transform.localPosition.z);
+                this.gameObject.transform.localPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, this.gameObject.transform.localPosition.z);
+            }
+
         }
     }
 
     private void OnMouseDown()
     {
-        if(Input.GetMouseButtonDown(0)){
+        if (Input.GetMouseButtonDown(0))
+        {
             Vector3 mousePos;
-            mousePos=Input.mousePosition;
+            mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
             startPosX = mousePos.x - this.transform.localPosition.x;
-            startPosY = mousePos.x - this.transform.localPosition.x;
+            startPosY = mousePos.y - this.transform.localPosition.y;
 
             moving = true;
         }
@@ -49,12 +55,14 @@ public class MoveSystem : MonoBehaviour
     {
         moving = false;
 
-        if (Mathf.Abs(this.transform.localPosition.x - correctForm.transform.localPosition.x)<=0.5f && 
-            Mathf.Abs(this.transform.localPosition.y - correctForm.transform.localPosition.y)<=0.5f)
+        if (Mathf.Abs(this.transform.localPosition.x - correctForm.transform.localPosition.x) <= 0.5f &&
+            Mathf.Abs(this.transform.localPosition.y - correctForm.transform.localPosition.y) <= 0.5f)
         {
             this.transform.localPosition = new Vector3(correctForm.transform.localPosition.x, correctForm.transform.localPosition.y, correctForm.transform.localPosition.z);
+            finish = true;
         }
-        else{
+        else
+        {
             this.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
         }
     }
