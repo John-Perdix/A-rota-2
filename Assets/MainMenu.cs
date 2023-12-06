@@ -24,4 +24,14 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(3);
     }
+
+    public void Fim()
+    {
+        SceneManager.LoadSceneAsync(4);
+    }
+
+    public void VerNau()
+    {
+        SceneManager.LoadSceneAsync(5);
+    }
 }
