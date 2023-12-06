@@ -691,7 +691,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -973,8 +973,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 454.1875, y: 387.62485}
-  m_SizeDelta: {x: -908.375, y: -1100.7502}
+  m_AnchoredPosition: {x: 454.1875, y: 388.12488}
+  m_SizeDelta: {x: -908.375, y: -1101.7502}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2070119947
 MonoBehaviour:
@@ -1028,7 +1028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: {fileID: 11400000, guid: 48637b88cc393a543920f3bc66d0ce8c, type: 2}
   X_START: 0
-  Y_START: 0
+  Y_START: 275
   X_SPACE_BETWEEN_ITEMS: 0
   NUMBER_OF_COLUMN: 1
   Y_SPACE_BETWEEN_ITEMS: 200
