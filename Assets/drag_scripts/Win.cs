@@ -28,7 +28,7 @@ public class Win : MonoBehaviour
                 int milliseconds = 2000;
                 Thread.Sleep(milliseconds);
 
-                SceneManager.LoadSceneAsync(2);
+                SceneManager.LoadSceneAsync(4);
             }
         }
     }
