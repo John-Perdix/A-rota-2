@@ -20,8 +20,8 @@ public class ColectedPieces : MonoBehaviour
     {
         if (currentPoints >= pointsToWin)
         {
-            //transform.GetChild(0).gameObject.SetActive(true);
-            //transform.GetChild(1).gameObject.SetActive(false);
+            transform.GetChild(0).gameObject.SetActive(true);
+            transform.GetChild(1).gameObject.SetActive(false);
                 int milliseconds = 2000;
                 Thread.Sleep(milliseconds);
 
