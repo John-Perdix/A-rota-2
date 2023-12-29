@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6066166259532220787}
   - component: {fileID: 1134462304004315869}
   m_Layer: 0
-  m_Name: catchObject
+  m_Name: catchObjectFrente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b258da7f03f1744c903bb44850676b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  casco: {fileID: 0}
+  Casco: {fileID: 0}
   velaFrente: {fileID: 0}
   velaMeio: {fileID: 0}
   velaTras: {fileID: 0}
@@ -129,6 +129,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: -1354131280540195073}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fb8a911521bcc784d9d1bdd590c74df9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -174194253931045471}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fb8a911521bcc784d9d1bdd590c74df9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6278460288926312127}
   m_SourcePrefab: {fileID: 100100000, guid: fb8a911521bcc784d9d1bdd590c74df9, type: 3}
 --- !u!4 &7131225075163966607 stripped
 Transform:
@@ -198,3 +206,53 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!65 &-174194253931045471
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7619215086870197813}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.66, y: 15.31, z: 6.37}
+  m_Center: {x: -10.7, y: 13.96, z: 0}
+--- !u!114 &-6278460288926312127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7619215086870197813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1134462304004315869}
+          m_TargetAssemblyTypeName: apanharItens, Assembly-CSharp
+          m_MethodName: catchItem
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
