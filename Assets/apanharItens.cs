@@ -21,19 +21,19 @@ public class apanharItens : MonoBehaviour
 
     public void catchItem()
     {
-        if (gameObject.name == "Slot Variant (Clone)")
+        if (gameObject.name == "PirateShip_hull (Clone)")
         {
             inventory.AddItem(casco, 1);
         }
-        else if (gameObject.name == "Slot (Clone)")
+        else if (gameObject.name == "PirateShip_main sale (Clone)")
         {
             inventory.AddItem(velaMeio, 1);
         }
-        else if (gameObject.name == "Slot Variant 1 (Clone)")
+        else if (gameObject.name == "PirateShip_front_sale 1 (Clone)")
         {
             inventory.AddItem(velaFrente, 1);
         }
-        else if (gameObject.name == "Slot Variant 2 (Clone)")
+        else if (gameObject.name == "PirateShip_back_sale (Clone)")
         {
             inventory.AddItem(velaTras, 1);
         }
