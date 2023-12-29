@@ -58,7 +58,7 @@ public class MoveSystem : MonoBehaviour
         if (Mathf.Abs(this.transform.localPosition.x - correctForm.transform.localPosition.x) <= 0.5f &&
             Mathf.Abs(this.transform.localPosition.y - correctForm.transform.localPosition.y) <= 0.5f)
         {
-            this.transform.localPosition = new Vector3(correctForm.transform.localPosition.x, correctForm.transform.localPosition.y, correctForm.transform.localPosition.z);
+            this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.localPosition.z);
             finish = true;
 
             GameObject.Find("PointsHandler").GetComponent<Win>().AddPoints();
