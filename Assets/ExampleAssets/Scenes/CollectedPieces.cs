@@ -12,7 +12,7 @@ public class ColectedPieces : MonoBehaviour
     void Start()
     {
         currentPoints = 0;
-        pointsToWin = 4;
+        pointsToWin = 8;
     }
 
     // Update is called once per frame

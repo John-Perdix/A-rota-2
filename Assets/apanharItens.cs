@@ -72,8 +72,5 @@ public class apanharItens : MonoBehaviour
             GameObject.Find("PointsHandler").GetComponent<ColectedPieces>().AddPointsPieces();
         }
 
-        //Destroy(gameObject.transform.parent);
-        //Destroy(gameObject.transform.parent.gameObject);
-
     }
 }
